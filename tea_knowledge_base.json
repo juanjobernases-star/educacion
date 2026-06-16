@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "app": "TGD – Mi Espacio de Aprendizaje",
+    "updated": "2026-06-15",
+    "description": "Base de conocimientos sobre TEA/TGD/Asperger para app educativa adaptada",
+    "sources_count": 13
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Guía TEA Comunitat Valenciana",
+      "url": "https://equipoautismomurcia.com/wp-content/uploads/2021/09/guia-tea-valenciana.pdf",
+      "type": "guia_educativa"
+    },
+    {
+      "id": 2,
+      "title": "Estrategia Española en TEA",
+      "url": "https://www.rpdiscapacidad.gob.es/documentos/Estrategia_Espanola_Autismo.pdf",
+      "type": "politica_publica"
+    },
+    {
+      "id": 3,
+      "title": "Brenda Smith – Estrategias Simples",
+      "url": "https://www.educa2.madrid.org/web/educamadrid/principal/files/a02ef8fa-edda-4bcc-8dff-5ecb132c87fb/BRENDA%20SMITH%20estrategias%20simples.pdf",
+      "type": "metodologia"
+    },
+    {
+      "id": 4,
+      "title": "Vol. I – Trastornos del Espectro Autista (Junta Andalucía)",
+      "url": "https://sid.usal.es/idocs/F8/FDO20838/01_trastornos_espectro_autista.pdf",
+      "type": "monografia"
+    },
+    {
+      "id": 5,
+      "title": "Vol. II – Síndrome de Asperger. Respuesta Educativa",
+      "url": "https://sid.usal.es/idocs/F8/FDO20838/02_sindrome_asperger_respuesta_educativa.pdf",
+      "type": "monografia"
+    },
+    {
+      "id": 6,
+      "title": "Vol. III – Prácticas Educativas y Recursos Didácticos",
+      "url": "https://sid.usal.es/idocs/F8/FDO20838/03_practicas_educativas_recursos_didacticos.pdf",
+      "type": "monografia"
+    },
+    {
+      "id": 7,
+      "title": "Guía para profesores y educadores (Autismo Castilla y León)",
+      "url": "https://autismocastillayleon.com/wp-content/uploads/2024/01/guia_para_profesores_y_educadores_de_alumnos_con_autismo4.pdf",
+      "type": "guia_profesorado"
+    },
+    {
+      "id": 8,
+      "title": "Técnicas para facilitar el aprendizaje TEA/Asperger (Recoletas)",
+      "url": "https://recoletascapuchinos.com/blog/consejos-de-salud/tea-asperger-tecnicas-para-facilitar-el-aprendizaje/",
+      "type": "articulo"
+    },
+    {
+      "id": 9,
+      "title": "El alumnado con autismo – Guía equipos docentes (RPDISCAPACIDAD)",
+      "url": "https://www.rpdiscapacidad.gob.es/estudios-publicaciones/AlumnadoConAutismo.htm",
+      "type": "guia_docente"
+    },
+    {
+      "id": 10,
+      "title": "Guía Recursos Autismo Madrid 2024",
+      "url": "https://autismomadrid.es/wp-content/uploads/2024/12/Guia_recursos_Autismo_Madrid_Interactiva_compressed.pdf",
+      "type": "guia_recursos"
+    },
+    {
+      "id": 11,
+      "title": "Proyecto Centro TGD – CEIP Pinar Prados",
+      "url": "https://pinarprados.com/wp-content/uploads/2020/05/PROYECTO-CENTRO-TGD-1-1.pdf",
+      "type": "proyecto_centro"
+    },
+    {
+      "id": 12,
+      "title": "Guía Alumnado con TEA – Educastur (Asturias)",
+      "url": "https://www.educastur.es/-/guía-alumnado-con-tea",
+      "type": "guia_educativa"
+    },
+    {
+      "id": 13,
+      "title": "Atención a las diferencias individuales – Comunidad de Madrid",
+      "url": "https://www.comunidad.madrid/educacion/atencion-diferencias-individuales-alumnado",
+      "type": "normativa_madrid"
+    }
+  ],
+  "tea_definition": {
+    "que_es": "El Trastorno del Espectro Autista (TEA) es una condición del neurodesarrollo que afecta a la comunicación social, la interacción y presenta patrones restrictivos y repetitivos de comportamiento, intereses o actividades.",
+    "terminologia": {
+      "TEA": "Trastorno del Espectro Autista - término actual DSM-5",
+      "TGD": "Trastornos Generalizados del Desarrollo - término anterior DSM-IV",
+      "Asperger": "Síndrome de Asperger - incluido actualmente dentro del TEA en DSM-5",
+      "nota": "El DSM-5 (2013) unificó todos bajo TEA. Se mantiene 'Asperger' de forma coloquial."
+    },
+    "caracteristicas_principales": [
+      "Dificultades en la comunicación social y la interacción",
+      "Patrones restrictivos y repetitivos de comportamiento",
+      "Intereses intensos y focalizados",
+      "Dificultades en la flexibilidad cognitiva",
+      "Alteraciones en el procesamiento sensorial",
+      "Dificultades en la comprensión de estados mentales (Teoría de la Mente)",
+      "Necesidad de rutinas y predictibilidad"
+    ],
+    "prevalencia": "Aproximadamente 1 de cada 100 nacimientos. Mayor prevalencia en varones (4:1). En España se estima que hay más de 470.000 personas con TEA.",
+    "niveles_apoyo": [
+      {
+        "nivel": 1,
+        "descripcion": "Necesita apoyo - dificultades sin apoyo, flexibilidad limitada",
+        "ejemplo": "Anteriormente llamado Asperger o autismo de alto funcionamiento"
+      },
+      {
+        "nivel": 2,
+        "descripcion": "Necesita apoyo sustancial - déficits marcados en comunicación social",
+        "ejemplo": "Comunicación verbal limitada, necesita apoyos visuales constantes"
+      },
+      {
+        "nivel": 3,
+        "descripcion": "Necesita apoyo muy sustancial - déficits severos en comunicación",
+        "ejemplo": "Comunicación muy limitada, necesita apoyo intensivo"
+      }
+    ],
+    "comorbilidades_frecuentes": [
+      "TDAH (hasta 40-70%)",
+      "Ansiedad (hasta 40%)",
+      "Depresión",
+      "Trastornos del sueño",
+      "Epilepsia (20-30%)",
+      "Discapacidad intelectual (en algunos casos)",
+      "Trastornos sensoriales",
+      "Trastornos alimentarios"
+    ],
+    "fortalezas": [
+      "Pensamiento visual desarrollado",
+      "Atención al detalle",
+      "Memoria a largo plazo excelente",
+      "Honestidad y franqueza",
+      "Intereses profundos que pueden convertirse en expertise",
+      "Pensamiento lógico y sistemático",
+      "Perseverancia en tareas de interés",
+      "Capacidad para seguir reglas y rutinas"
+    ]
+  },
+  "design_principles_app": {
+    "sensorial": {
+      "colores": "Usar colores suaves y apagados (pasteles, tonos tierra). Evitar blanco puro (#FFF) y negro puro (#000). Fondo crema cálido (#F8F6F0).",
+      "contraste": "Contraste suficiente para legibilidad pero sin exceso. Gris oscuro (#3A3A3A) sobre crema, no negro sobre blanco.",
+      "animaciones": "Minimizar o eliminar. Respetar prefers-reduced-motion. Nada de parpadeo o destello.",
+      "sonidos": "Todo desactivado por defecto. El usuario activa lo que quiera. Sin sonidos repentinos o inesperados.",
+      "layout": "Limpio, despejado, mucho espacio. Una cosa a la vez en pantalla. Sin sobrecarga visual."
+    },
+    "comunicacion_visual": {
+      "pictogramas": "Usar pictogramas ARASAAC junto al texto siempre. API: https://api.arasaac.org",
+      "iconos_texto": "SIEMPRE icono + texto juntos. Nunca solo icono sin etiqueta.",
+      "tipografia": "Fuente Lexend o Atkinson Hyperlegible. Mínimo 18px. Interlineado generoso (1.6+).",
+      "lenguaje": "Literal, claro, directo. Sin metáforas, ironías o dobles sentidos. Frases cortas."
+    },
+    "estructura": {
+      "predictibilidad": "La estructura NUNCA cambia. Siempre los mismos elementos en los mismos sitios.",
+      "navegacion": "Barra inferior fija, siempre visible, máximo 5 opciones. Botón 'Volver' claro.",
+      "secuenciacion": "Actividades presentadas paso a paso, de forma secuencial y ordenada.",
+      "agenda_visual": "Agenda diaria con pictogramas que anticipa las actividades del día."
+    },
+    "interaccion": {
+      "botones": "Grandes (mínimo 60×60px), con borde redondeado suave, área táctil generosa.",
+      "feedback": "Positivo y suave. Verde pastel para correcto. Sin rojo agresivo para errores.",
+      "sin_presion": "SIN temporizadores. SIN cuenta atrás. El alumno marca su ritmo.",
+      "refuerzo_positivo": "Estrellas, logros personales. NUNCA comparación con otros. NUNCA rankings."
+    }
+  },
+  "intervention_strategies": {
+    "teacch": {
+      "nombre": "TEACCH (Treatment and Education of Autistic and related Communication handicapped Children)",
+      "descripcion": "Metodología de enseñanza estructurada que organiza el entorno físico, la secuencia de actividades y los materiales de trabajo para facilitar la comprensión.",
+      "principios": [
+        "Estructuración física del espacio",
+        "Uso de agendas y horarios visuales",
+        "Sistemas de trabajo individualizados",
+        "Organización visual de tareas",
+        "Rutinas predecibles"
+      ],
+      "aplicacion_app": "La app implementa esto mediante agenda visual, estructura siempre igual, pasos secuenciales y refuerzo visual."
+    },
+    "arasaac": {
+      "nombre": "ARASAAC (Portal Aragonés de Comunicación Aumentativa y Alternativa)",
+      "descripcion": "Sistema de pictogramas gratuito creado por el Gobierno de Aragón. Es el más utilizado en España y referente internacional.",
+      "api": "https://api.arasaac.org",
+      "uso_app": "Integración de pictogramas junto a texto para reforzar la comprensión visual.",
+      "licencia": "Creative Commons BY-NC-SA"
+    },
+    "historias_sociales": {
+      "nombre": "Historias Sociales (Carol Gray)",
+      "descripcion": "Narraciones cortas que describen situaciones sociales y las respuestas apropiadas de forma explícita y literal.",
+      "estructura": [
+        "Oración descriptiva",
+        "Oración directiva",
+        "Oración de perspectiva",
+        "Oración de control"
+      ],
+      "ejemplos_app": [
+        "Cuando llego al colegio, saludo a mis compañeros",
+        "Si alguien me habla, le miro y escucho",
+        "Cuando me enfado, puedo contar hasta 10 y respirar",
+        "Pedir ayuda está bien. Puedo decir: Necesito ayuda"
+      ]
+    },
+    "apoyos_visuales": {
+      "tipos": [
+        "Agendas visuales diarias",
+        "Secuencias de actividades paso a paso",
+        "Paneles de normas con pictogramas",
+        "Termómetro emocional",
+        "Semáforo de conducta (verde, amarillo, rojo)",
+        "Timer visual (reloj de arena, NO cuenta atrás numérica)",
+        "Mapas conceptuales visuales"
+      ]
+    },
+    "regulacion_sensorial": {
+      "estrategias": [
+        "Ofrecer descansos sensoriales entre actividades",
+        "Reducir estímulos visuales y auditivos innecesarios",
+        "Permitir el uso de elementos autorregulatorios (fidgets, auriculares)",
+        "Ambientes con iluminación suave",
+        "Espacios tranquilos disponibles"
+      ]
+    }
+  },
+  "educational_needs_by_level": {
+    "infantil_3_5": {
+      "areas_clave": [
+        "Comunicación básica",
+        "Juego funcional",
+        "Autonomía personal",
+        "Primeras rutinas",
+        "Estimulación sensorial adecuada"
+      ],
+      "estrategias": [
+        "Rutinas muy estructuradas y predecibles",
+        "Uso intensivo de pictogramas para anticipar actividades",
+        "Juego estructurado con apoyo del adulto",
+        "Actividades sensoriales controladas",
+        "Canciones y rutinas repetitivas",
+        "Espacios claramente definidos por actividad"
+      ],
+      "contenidos_app": [
+        "Colores",
+        "Formas",
+        "Números 1-10",
+        "Letras",
+        "Animales",
+        "Cuerpo humano",
+        "Emociones básicas",
+        "Rutinas diarias"
+      ]
+    },
+    "primaria_6_12": {
+      "areas_clave": [
+        "Lectoescritura adaptada",
+        "Matemáticas con apoyo visual",
+        "Habilidades sociales",
+        "Autonomía",
+        "Gestión emocional"
+      ],
+      "estrategias": [
+        "Adaptaciones curriculares individualizadas",
+        "Exámenes adaptados (más tiempo, sin presión, formato visual)",
+        "Apoyo entre iguales (compañero guía)",
+        "Estructuración del tiempo libre y recreos",
+        "Trabajo en habilidades de organización",
+        "Uso de apoyos visuales en todas las áreas"
+      ],
+      "contenidos_app": [
+        "Lengua adaptada",
+        "Matemáticas visuales",
+        "Conocimiento del medio",
+        "Inglés básico",
+        "Habilidades sociales",
+        "Expresión emocional"
+      ]
+    },
+    "eso_12_16": {
+      "areas_clave": [
+        "Adaptación a múltiples profesores",
+        "Organización y planificación",
+        "Habilidades sociales complejas",
+        "Prevención acoso",
+        "Orientación vocacional"
+      ],
+      "estrategias": [
+        "Coordinación entre profesorado (tutor de referencia)",
+        "Uso de agenda personal y organizadores",
+        "Programas específicos de habilidades sociales",
+        "Prevención y actuación ante acoso escolar",
+        "Adaptaciones metodológicas (instrucciones claras, organizadores gráficos)",
+        "Apoyo en transiciones entre aulas/actividades"
+      ],
+      "contenidos_app": [
+        "Materias ESO adaptadas",
+        "Técnicas de estudio",
+        "Habilidades sociales avanzadas",
+        "Gestión del estrés",
+        "Preparación exámenes",
+        "Autorregulación"
+      ]
+    },
+    "bachiller_16_18": {
+      "areas_clave": [
+        "Autonomía máxima",
+        "Preparación universidad/empleo",
+        "Vida independiente",
+        "Autodeterminación",
+        "Gestión administrativa básica"
+      ],
+      "estrategias": [
+        "Programa de transición a vida adulta",
+        "Orientación vocacional especializada",
+        "Entrenamiento en habilidades de vida diaria",
+        "Trabajo en autodeterminación y autodefensa",
+        "Preparación para selectividad/acceso universidad con adaptaciones"
+      ],
+      "contenidos_app": [
+        "Contenidos bachiller adaptados",
+        "Habilidades vida diaria",
+        "Preparación selectividad",
+        "Orientación laboral",
+        "Autonomía personal"
+      ]
+    }
+  },
+  "emotional_support": {
+    "reconocimiento_emociones": {
+      "descripcion": "Las personas con TEA suelen tener dificultades para identificar, comprender y expresar emociones propias y ajenas (alexitimia).",
+      "herramientas": [
+        "Termómetro emocional con caras y colores",
+        "Vocabulario emocional explícito con pictogramas",
+        "Historias sociales sobre emociones",
+        "Diario emocional visual"
+      ]
+    },
+    "autorregulacion": {
+      "tecnicas": [
+        "Respiración: inspirar 4 segundos, mantener 4, soltar 4",
+        "Contar hasta 10 antes de reaccionar",
+        "Buscar un espacio tranquilo",
+        "Usar elementos sensoriales (pelota antiestrés, auriculares)",
+        "Escala de 1 a 5: ¿cuánto me molesta?",
+        "Semáforo: verde (tranquilo), amarillo (agitado), rojo (muy enfadado)"
+      ]
+    },
+    "habilidades_sociales": {
+      "areas": [
+        "Saludar y despedirse",
+        "Iniciar y mantener conversaciones",
+        "Entender turnos en la conversación",
+        "Interpretar expresiones faciales básicas",
+        "Pedir ayuda de forma apropiada",
+        "Resolver conflictos simples",
+        "Entender normas sociales implícitas"
+      ]
+    }
+  },
+  "classroom_strategies": {
+    "entorno": [
+      "Entorno estable, organizado y predecible",
+      "Minimizar estímulos distractores",
+      "Delimitar zonas claras para cada actividad",
+      "Ubicar al alumno cerca del profesor, lejos de ventanas/puertas",
+      "Tener un espacio tranquilo para descansos sensoriales"
+    ],
+    "comunicacion": [
+      "Información clara, concisa y permanente",
+      "Canal preferentemente visual: pictogramas, imágenes, esquemas",
+      "Instrucciones cortas, una a una, comprobando comprensión",
+      "Evitar lenguaje figurado, ironía, sarcasmo",
+      "Dar tiempo extra para procesar la información",
+      "Anticipar cambios con antelación suficiente"
+    ],
+    "actividades": [
+      "Estructuradas en pasos ordenados y secuenciales",
+      "Con principio y fin claramente marcados",
+      "Uso de listas de verificación (checklists)",
+      "Alternar actividades de alta y baja demanda",
+      "Incorporar intereses del alumno como motivación",
+      "Adaptaciones en evaluaciones: más tiempo, formato visual, sin dobles sentidos"
+    ],
+    "prevencion_acoso": {
+      "vulnerabilidad": "El alumnado con TEA es especialmente vulnerable al acoso escolar por sus dificultades sociales",
+      "medidas": [
+        "Sensibilización del grupo-clase sobre neurodiversidad",
+        "Programa de compañeros guía/mentores",
+        "Supervisión activa en recreos y tiempos no estructurados",
+        "Enseñanza explícita de qué es acoso y cómo pedir ayuda",
+        "Protocolo claro de actuación ante situaciones de acoso"
+      ]
+    }
+  },
+  "legal_framework_spain": {
+    "normativa_general": [
+      {
+        "ley": "Constitución Española (Art. 27, 49)",
+        "descripcion": "Derecho a la educación y protección de personas con discapacidad"
+      },
+      {
+        "ley": "LOMLOE (2020)",
+        "descripcion": "Ley Orgánica de Educación. Principios de inclusión, equidad y atención a la diversidad"
+      },
+      {
+        "ley": "Estrategia Española en TEA (2015)",
+        "descripcion": "Marco estratégico nacional con 15 líneas de actuación"
+      },
+      {
+        "ley": "Convención ONU derechos personas con discapacidad (2006)",
+        "descripcion": "Ratificada por España. Art. 24: derecho a educación inclusiva"
+      }
+    ],
+    "normativa_madrid": [
+      {
+        "norma": "Decreto 23/2023 de 22 de marzo",
+        "descripcion": "Regula la atención a las diferencias individuales del alumnado en Madrid"
+      },
+      {
+        "norma": "Plan IncluYO",
+        "descripcion": "Plan específico de atención a diferencias individuales que cada centro debe incorporar a su proyecto educativo"
+      },
+      {
+        "norma": "Centros preferentes TEA",
+        "descripcion": "Centros ordinarios con recursos específicos para alumnado TEA"
+      }
+    ],
+    "derechos_alumnado": [
+      "Evaluación psicopedagógica específica",
+      "Adaptaciones curriculares individualizadas",
+      "Recursos de apoyo (PT, AL, ATE, integrador social)",
+      "Adaptaciones en evaluaciones y exámenes",
+      "Orientación educativa y profesional adaptada",
+      "Protección frente al acoso escolar"
+    ]
+  },
+  "resources_madrid": {
+    "centros_preferentes_tea": "La Comunidad de Madrid cuenta con centros ordinarios de escolarización preferente para alumnado con TEA, que disponen de recursos humanos y materiales específicos.",
+    "equipos_orientacion": "Equipos de Orientación Educativa y Psicopedagógica (EOEP) generales y específicos para TEA.",
+    "asociaciones": [
+      {
+        "nombre": "Federación Autismo Madrid",
+        "web": "https://autismomadrid.es",
+        "descripcion": "Federación de entidades de autismo de la Comunidad de Madrid"
+      },
+      {
+        "nombre": "Fundación Aucavi",
+        "descripcion": "Entidad especializada en TEA"
+      },
+      {
+        "nombre": "Asociación Autismo España",
+        "web": "https://www.autismo.org.es",
+        "descripcion": "Confederación nacional"
+      },
+      {
+        "nombre": "ARASAAC",
+        "web": "https://arasaac.org",
+        "descripcion": "Portal de Comunicación Aumentativa y Alternativa"
+      }
+    ],
+    "servicios": [
+      "Atención Temprana (0-6 años)",
+      "Centros de Día",
+      "Servicio de Respiro Familiar",
+      "Programas de Empleo con Apoyo",
+      "Viviendas con apoyo",
+      "Asistencia personal"
+    ]
+  },
+  "what_student_would_ask": {
+    "fuente": "Proyecto Centro TGD – CEIP Pinar Prados (adaptado)",
+    "peticiones": [
+      "Ayúdame a entender qué tengo que hacer, usa imágenes y palabras claras",
+      "No me grites ni me hables muy rápido, necesito más tiempo",
+      "Dime qué va a pasar hoy, no me gustan las sorpresas",
+      "Si cambias algo, avísame antes",
+      "No me obligues a mirar a los ojos si me cuesta",
+      "Explícame las normas de forma clara, no des por hecho que las entiendo",
+      "Dame un sitio tranquilo si me siento agobiado",
+      "No me compares con los demás, cada uno aprende diferente",
+      "Si me equivoco, dime qué hacer bien, no solo que lo hice mal",
+      "Usa mis intereses para enseñarme cosas nuevas",
+      "Déjame descansar entre actividades",
+      "No te enfades si hago algo raro, es mi forma de calmarme",
+      "Celébra conmigo los pequeños logros",
+      "Sé paciente conmigo, estoy haciendo mi mejor esfuerzo"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+import React,{useMemo,useState} from "react";
+import {STAGES,getStageByAge,getCourseByAge,saveStageSelection} from "../../core/stages-data.js";
+const AGES=[3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18];
+export default function StageSelectorView({onSelect}){
+  const[step,setStep]=useState("age");
+  const[age,setAge]=useState(null);
+  const[cid,setCid]=useState(null);
+  const stage=useMemo(()=>age!==null?getStageByAge(age):null,[age]);
+  const suggested=useMemo(()=>stage?getCourseByAge(stage,age):null,[stage,age]);
+  if(step==="age")return(<div className="min-h-screen bg-slate-50 flex items-center justify-center p-6"><div className="max-w-3xl w-full space-y-6"><div className="text-center space-y-3"><h1 className="text-3xl font-bold">TGD App educativa segura</h1><p className="text-lg text-slate-600">Cuantos anios tiene el alumno?</p></div><div className="grid grid-cols-4 sm:grid-cols-8 gap-3">{AGES.map(a=><button key={a} onClick={()=>{setAge(a);setCid(null);setStep("confirm");}} className="rounded-2xl border-2 bg-white p-4 text-center hover:border-slate-900 hover:shadow-lg transition"><span className="text-2xl font-bold block">{a}</span><span className="text-xs text-slate-500">anios</span></button>)}</div><p className="text-center text-sm text-slate-500">La edad no se envia a servidores.</p></div></div>);
+  return(<div className="min-h-screen bg-slate-50 flex items-center justify-center p-6"><div className="max-w-2xl w-full space-y-6"><div className="text-center space-y-3"><p className="text-5xl">{stage?.icon}</p><h1 className="text-2xl font-bold">{age} anios → {stage?.name}</h1><p className="text-slate-600">{stage?.description}</p></div><div className="rounded-2xl border bg-white p-5 space-y-4"><h3 className="font-semibold">Curso</h3><div className="grid grid-cols-1 sm:grid-cols-2 gap-3">{stage?.courses.map(c=><button key={c.id} onClick={()=>setCid(c.id)} className={["rounded-2xl border-2 p-4 text-left",(cid||suggested?.id)===c.id?"bg-slate-900 text-white border-slate-900":"bg-white"].join(" ")}><span className="font-bold">{c.label}</span></button>)}</div></div><div className="flex flex-wrap gap-3 justify-center"><button onClick={()=>{setStep("age");setAge(null);}} className="rounded-2xl border px-5 py-3 bg-white">Cambiar edad</button><button onClick={()=>{if(!stage)return;const sel={age,stageId:stage.id,courseId:cid||suggested?.id};saveStageSelection(sel);onSelect(sel);}} className="rounded-2xl border px-5 py-3 bg-slate-900 text-white">Comenzar</button></div></div></div>);
+}
